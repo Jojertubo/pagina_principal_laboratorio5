@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ff9900;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+#bio{
+    min-width: 400px;
+    width: 30%;
+    padding: 0;
+    overflow: hidden;
+}
+p, h2{
+    color: #FFFFFF;
+    margin: 1em;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.carrusel{
+    overflow: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    display: inline-block;
+    border: 3px solid #ff9900;
+    border-radius: 40px;
+    width: 40em;
+}
+.image:hover{
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 40em;
+}
+div{
+    display: inline-block;
+}
+.carrusel-img{
+    margin: 0 5vw 0 5vw;
+}
+hr{
+    margin: 50px 0 50px 0;
+    border: 1px solid #ff990052;
+}
+.yo{
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 1em;
+}
+.div_yo{
+    width: 65%;
+}
+.container{
+    display: flex;
+}
+#h2_2{
+    margin-bottom: 3em;
+}
+a{
+    margin: auto;
+    color: #ff9900;
+}

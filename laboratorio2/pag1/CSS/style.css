@@ -1,0 +1,128 @@
+/* Estilos globales */
+body{
+    background-color: #2c3e50;
+    margin: 0;
+}
+
+/* Estilos del encabezado */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#header-nav{
+    background-color:rgba(72, 105, 138, 0.95);
+    box-shadow: 0px 3px 15px 0 #1f2e3d;
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+#header-nav-div{
+    display: flex;
+    justify-content: center;
+}
+#header-nav-div-title{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin: 10px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* Estilos del contenido principal */
+main{
+    margin-top: 66.81px;
+}
+.main-div{
+    margin: 40px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    border: 5px solid #1f2e3d;
+}
+#main-div-article1-h1{
+    text-align: center;
+    font-size: 40px;
+}
+.textWhite{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(58, 58, 58, 0.822);
+    margin-right: 20px
+}
+h2{
+    text-align: center;
+}
+#topologia-de-red{
+    margin-left: 40px;
+}
+hr{
+    margin: 30px;
+    position: relative;
+}
+.article-div{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+#footer-text{
+    color: #ffffff;
+    text-align: center;
+}
+.image{
+    position: absolute;
+    display: inline-block;
+    
+}
+#img1{
+    position: relative;
+    margin-left: 50px;
+    width: 70%;
+    bottom: 20px;
+}
+#img2{
+    width: 50%;
+}
+#img3{
+    position: relative;
+    width: 35%;
+    bottom: 20px;
+}
+#img4{
+    position: relative;
+    width: 30%;
+    bottom: 10px;
+}
+#img5{
+    display: block;
+    position: relative;
+    width: 50%;
+    bottom: 10px;
+}
+#img6{
+    position: relative;
+    width: 50%;
+    bottom: 10px;
+}
+
+.list-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header{
+    background-color: rgba(96, 123, 151, 0.95);
+    border: 1px solid #ee5f33;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+}
+a:hover{
+    background-color: rgba(57, 74, 92, 0.95);
+}
+#centerText{
+    text-align: center;
+}

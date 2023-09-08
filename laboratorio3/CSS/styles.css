@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(242, 175, 255);
+    margin: auto;
+}
+html{
+    margin: auto;
+}
+header{
+    display: grid;
+    background-color: rgb(255, 0, 217);
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: auto;
+}
+.div-style{
+    overflow: hidden;
+    display: grid;
+    background-color: grey;
+    background-image: url("../img/globos.avif");
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 100px;
+}
+footer{
+    text-align: center;
+}

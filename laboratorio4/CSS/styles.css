@@ -1,0 +1,63 @@
+/* ESTILOS BACKGROUND */
+body{
+    background-color: #000000;
+    font-family:sans-serif;
+}
+
+/* ESTILOS HEADER */
+h1{
+    text-align: center;
+}
+/* ESTILOS PARA LAS IMÁGENES */
+.img{
+    max-width: 600px;
+    max-height: 300px;
+    margin: auto;
+}
+section{
+    background-color: rgb(43, 43, 43);
+    border-radius: 20px;
+    border: 5px solid seagreen;
+    width: min-content;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.div_img{
+    display: flex;
+    justify-content: center;
+}
+
+/* ESTILOS DE LAS LISTAS */
+.div_opciones{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+li{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+}
+a:hover{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: rgb(99, 99, 99);
+}
+
+/* ESTILOS WHITE TEXT */
+.textWhite{
+    color: #fafafa;
+}
+
+/* ESTILOS FOOTER */
+footer{
+    text-align: center;
+}

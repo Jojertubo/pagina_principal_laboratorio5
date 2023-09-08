@@ -1,0 +1,88 @@
+/* Estilos globales */
+body {
+    background-color: black;
+    margin: auto;
+}
+
+/* Estilos para encabezados */
+#header-h1-title{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+#article-h1-title{
+    text-align: center;
+}
+
+/* Estilos para el header */
+#div1{
+    background-color: rgb(58, 57, 57);
+    width: 50%;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 2px;
+    border:1px solid #ee5f33;
+}
+.header-img{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Estilos para el contenido principal */
+article{
+    background-color: rgb(107, 7, 7);
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #ee5f33;
+}
+.article-section1{
+    font-family: 'PT Sans Caption', sans-serif;
+    position: relative;
+
+}
+.textWhite {
+    color: aliceblue;
+}
+#link-next1{
+    color:aqua;
+    position: relative;
+}
+
+/* Estilos para el pié de página */
+footer{
+    text-align: center;
+}
+
+/* Responsive design */
+@media screen and (max-width: 400px){
+    .header-img{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        height: 180px;
+    }
+
+}
+.list-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header{
+    background-color: rgb(107, 7, 7);
+    border: 1px solid #ee5f33;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+}
+a:hover{
+    background-color: rgb(82, 2, 2);
+}

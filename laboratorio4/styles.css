@@ -1,0 +1,12 @@
+li, ul{
+    padding-inline-start: 0;
+    list-style-type: none;
+    margin: auto;
+}
+div{
+    display: inline-block;
+    background-color: yellow;
+}
+img{
+    width:100%;
+}
