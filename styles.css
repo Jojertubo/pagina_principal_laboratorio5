@@ -15,6 +15,7 @@ header {
     align-items: center;
     padding: 20px;
     border-bottom: 1px solid #ff9900;
+    overflow: auto;
 }
 
 h1 {
@@ -47,7 +48,7 @@ body{
     background-color: rgb(20, 20, 20);
 }
 #bio{
-    min-width: 400px;
+    min-width: 210px;
     width: 30%;
     padding: 0;
     overflow: hidden;
